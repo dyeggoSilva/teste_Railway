@@ -20,7 +20,7 @@ public class ContatoController {
     }
 
 
-    @GetMapping("/contatos/users")
+    //@GetMapping("/contatos/users")
     public List Contato(){
         return contatoService.listAll();
     }
